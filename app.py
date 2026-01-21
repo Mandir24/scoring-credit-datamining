@@ -7,6 +7,7 @@
 # Pour lancer l'appliceation, utilise la commande : streamlit run app.py sur le terminal 
 
 # Importation des bibliothèques nécessaires
+import xgboost as xgb  # Ajout indispensable
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -106,4 +107,5 @@ if st.button("Lancer l'analyse du risque", type="primary"):
         st.write("Le client présente un profil fiable.")
 
     # Explication
+
     st.info("Note : Cette décision est basée sur le modèle XGBoost optimisé.")
