@@ -1,6 +1,4 @@
 streamlit
 plotly
-pytz 
 pandas
-numpy 
-pickle
+numpy
